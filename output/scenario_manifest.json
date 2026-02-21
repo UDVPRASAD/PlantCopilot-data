@@ -1,0 +1,1768 @@
+[
+  {
+    "scenario_id": "sc_0000_normal",
+    "type": "normal",
+    "equipment_id": "eq_V101",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of V-101 (Inlet Separator)"
+  },
+  {
+    "scenario_id": "sc_0001_normal",
+    "type": "normal",
+    "equipment_id": "eq_V102",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of V-102 (Test Separator)"
+  },
+  {
+    "scenario_id": "sc_0002_normal",
+    "type": "normal",
+    "equipment_id": "eq_TK101",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of TK-101 (Produced Water Tank)"
+  },
+  {
+    "scenario_id": "sc_0003_normal",
+    "type": "normal",
+    "equipment_id": "eq_C201",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of C-201 (1st Stage Gas Compressor)"
+  },
+  {
+    "scenario_id": "sc_0004_normal",
+    "type": "normal",
+    "equipment_id": "eq_C202",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of C-202 (2nd Stage Gas Compressor)"
+  },
+  {
+    "scenario_id": "sc_0005_normal",
+    "type": "normal",
+    "equipment_id": "eq_E201",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of E-201 (1st Stage Aftercooler)"
+  },
+  {
+    "scenario_id": "sc_0006_normal",
+    "type": "normal",
+    "equipment_id": "eq_V201",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of V-201 (1st Stage Suction Scrubber)"
+  },
+  {
+    "scenario_id": "sc_0007_normal",
+    "type": "normal",
+    "equipment_id": "eq_V202",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of V-202 (2nd Stage Suction Scrubber)"
+  },
+  {
+    "scenario_id": "sc_0008_normal",
+    "type": "normal",
+    "equipment_id": "eq_T301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of T-301 (Amine Contactor)"
+  },
+  {
+    "scenario_id": "sc_0009_normal",
+    "type": "normal",
+    "equipment_id": "eq_T302",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of T-302 (Amine Regenerator)"
+  },
+  {
+    "scenario_id": "sc_0010_normal",
+    "type": "normal",
+    "equipment_id": "eq_P301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of P-301A (Lean Amine Pump (A))"
+  },
+  {
+    "scenario_id": "sc_0011_normal",
+    "type": "normal",
+    "equipment_id": "eq_P301B",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of P-301B (Lean Amine Pump (B) [Standby])"
+  },
+  {
+    "scenario_id": "sc_0012_normal",
+    "type": "normal",
+    "equipment_id": "eq_E301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of E-301 (Lean/Rich Amine Exchanger)"
+  },
+  {
+    "scenario_id": "sc_0013_normal",
+    "type": "normal",
+    "equipment_id": "eq_E302",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of E-302 (Lean Amine Cooler)"
+  },
+  {
+    "scenario_id": "sc_0014_normal",
+    "type": "normal",
+    "equipment_id": "eq_T401",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of T-401 (Glycol Contactor)"
+  },
+  {
+    "scenario_id": "sc_0015_normal",
+    "type": "normal",
+    "equipment_id": "eq_E401",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of E-401 (Glycol Reboiler)"
+  },
+  {
+    "scenario_id": "sc_0016_normal",
+    "type": "normal",
+    "equipment_id": "eq_T501",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of T-501 (Demethanizer)"
+  },
+  {
+    "scenario_id": "sc_0017_normal",
+    "type": "normal",
+    "equipment_id": "eq_E501",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of E-501 (Gas-Gas Exchanger)"
+  },
+  {
+    "scenario_id": "sc_0018_normal",
+    "type": "normal",
+    "equipment_id": "eq_P601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of P-601A (Cooling Water Pump (A))"
+  },
+  {
+    "scenario_id": "sc_0019_normal",
+    "type": "normal",
+    "equipment_id": "eq_C601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of C-601 (Instrument Air Compressor)"
+  },
+  {
+    "scenario_id": "sc_0020_normal",
+    "type": "normal",
+    "equipment_id": "eq_V701",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of V-701 (Flare KO Drum)"
+  },
+  {
+    "scenario_id": "sc_0021_normal",
+    "type": "normal",
+    "equipment_id": "eq_XV101",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of XV-101 (Inlet ESD Valve)"
+  },
+  {
+    "scenario_id": "sc_0022_normal",
+    "type": "normal",
+    "equipment_id": "eq_FV301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Normal operation of FV-301 (Amine Flow Control Valve)"
+  },
+  {
+    "scenario_id": "sc_0023_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_V101",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual high_output on V-101: Liquid carryover to gas outlet, floods downstream equipment"
+  },
+  {
+    "scenario_id": "sc_0024_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_V102",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual high_output on V-102: Liquid carryover to gas outlet, floods downstream equipment"
+  },
+  {
+    "scenario_id": "sc_0025_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_TK101",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual high_output on TK-101: Overflow, environmental spill"
+  },
+  {
+    "scenario_id": "sc_0026_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C201",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on C-201: Vibration increase, temperature rise, potential catastrophic failure"
+  },
+  {
+    "scenario_id": "sc_0027_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C201",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on C-201: Reduced efficiency, higher discharge temperature, reduced capacity"
+  },
+  {
+    "scenario_id": "sc_0028_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C202",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on C-202: Vibration increase, temperature rise, potential catastrophic failure"
+  },
+  {
+    "scenario_id": "sc_0029_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C202",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on C-202: Reduced efficiency, higher discharge temperature, reduced capacity"
+  },
+  {
+    "scenario_id": "sc_0030_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E201",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual fouling on E-201: Reduced heat transfer, increased pressure drop, higher outlet temperatures"
+  },
+  {
+    "scenario_id": "sc_0031_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E201",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual tube_failure on E-201: Cross-contamination between shell and tube fluids"
+  },
+  {
+    "scenario_id": "sc_0032_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_V201",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual high_output on V-201: Liquid carryover to gas outlet, floods downstream equipment"
+  },
+  {
+    "scenario_id": "sc_0033_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_V202",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual high_output on V-202: Liquid carryover to gas outlet, floods downstream equipment"
+  },
+  {
+    "scenario_id": "sc_0034_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T301",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on T-301: Increased pressure drop, reduced separation efficiency, flooding"
+  },
+  {
+    "scenario_id": "sc_0035_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T301",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual plugged on T-301: Tray/packing blockage, loss of mass transfer"
+  },
+  {
+    "scenario_id": "sc_0036_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T302",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on T-302: Increased pressure drop, reduced separation efficiency, flooding"
+  },
+  {
+    "scenario_id": "sc_0037_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T302",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual plugged on T-302: Tray/packing blockage, loss of mass transfer"
+  },
+  {
+    "scenario_id": "sc_0038_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on P-301A: Increased vibration \u2192 temperature rise \u2192 seizure"
+  },
+  {
+    "scenario_id": "sc_0039_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual seal_failure on P-301A: External leakage, reduced discharge pressure"
+  },
+  {
+    "scenario_id": "sc_0040_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual cavitation on P-301A: Erosion damage, vibration, noise, reduced performance"
+  },
+  {
+    "scenario_id": "sc_0041_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301",
+    "failure_mode": "shaft_misalignment",
+    "failure_mechanism": "misalignment",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual shaft_misalignment on P-301A: Increased vibration at 1x and 2x RPM, coupling wear"
+  },
+  {
+    "scenario_id": "sc_0042_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on P-301B: Increased vibration \u2192 temperature rise \u2192 seizure"
+  },
+  {
+    "scenario_id": "sc_0043_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual seal_failure on P-301B: External leakage, reduced discharge pressure"
+  },
+  {
+    "scenario_id": "sc_0044_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual cavitation on P-301B: Erosion damage, vibration, noise, reduced performance"
+  },
+  {
+    "scenario_id": "sc_0045_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "shaft_misalignment",
+    "failure_mechanism": "misalignment",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual shaft_misalignment on P-301B: Increased vibration at 1x and 2x RPM, coupling wear"
+  },
+  {
+    "scenario_id": "sc_0046_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E301",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual fouling on E-301: Reduced heat transfer, increased pressure drop, higher outlet temperatures"
+  },
+  {
+    "scenario_id": "sc_0047_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E301",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual tube_failure on E-301: Cross-contamination between shell and tube fluids"
+  },
+  {
+    "scenario_id": "sc_0048_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E302",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual fouling on E-302: Reduced heat transfer, increased pressure drop, higher outlet temperatures"
+  },
+  {
+    "scenario_id": "sc_0049_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E302",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual tube_failure on E-302: Cross-contamination between shell and tube fluids"
+  },
+  {
+    "scenario_id": "sc_0050_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T401",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on T-401: Increased pressure drop, reduced separation efficiency, flooding"
+  },
+  {
+    "scenario_id": "sc_0051_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T401",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual plugged on T-401: Tray/packing blockage, loss of mass transfer"
+  },
+  {
+    "scenario_id": "sc_0052_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E401",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual fouling on E-401: Reduced heat transfer, increased pressure drop, higher outlet temperatures"
+  },
+  {
+    "scenario_id": "sc_0053_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E401",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual tube_failure on E-401: Cross-contamination between shell and tube fluids"
+  },
+  {
+    "scenario_id": "sc_0054_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T501",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on T-501: Increased pressure drop, reduced separation efficiency, flooding"
+  },
+  {
+    "scenario_id": "sc_0055_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_T501",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual plugged on T-501: Tray/packing blockage, loss of mass transfer"
+  },
+  {
+    "scenario_id": "sc_0056_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E501",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual fouling on E-501: Reduced heat transfer, increased pressure drop, higher outlet temperatures"
+  },
+  {
+    "scenario_id": "sc_0057_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_E501",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual tube_failure on E-501: Cross-contamination between shell and tube fluids"
+  },
+  {
+    "scenario_id": "sc_0058_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P601",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on P-601A: Increased vibration \u2192 temperature rise \u2192 seizure"
+  },
+  {
+    "scenario_id": "sc_0059_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P601",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual seal_failure on P-601A: External leakage, reduced discharge pressure"
+  },
+  {
+    "scenario_id": "sc_0060_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P601",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "anomaly",
+    "description": "Gradual cavitation on P-601A: Erosion damage, vibration, noise, reduced performance"
+  },
+  {
+    "scenario_id": "sc_0061_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_P601",
+    "failure_mode": "shaft_misalignment",
+    "failure_mechanism": "misalignment",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual shaft_misalignment on P-601A: Increased vibration at 1x and 2x RPM, coupling wear"
+  },
+  {
+    "scenario_id": "sc_0062_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C601",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "anomaly",
+    "description": "Gradual bearing_failure on C-601: Vibration increase, temperature rise, potential catastrophic failure"
+  },
+  {
+    "scenario_id": "sc_0063_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_C601",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual fouling on C-601: Reduced efficiency, higher discharge temperature, reduced capacity"
+  },
+  {
+    "scenario_id": "sc_0064_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_XV101",
+    "failure_mode": "stuck",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual stuck on XV-101: Valve fails to move to required position"
+  },
+  {
+    "scenario_id": "sc_0065_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_XV101",
+    "failure_mode": "internal_leakage",
+    "failure_mechanism": "flow_erosion",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual internal_leakage on XV-101: Passing when closed, cannot achieve tight shutoff"
+  },
+  {
+    "scenario_id": "sc_0066_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_FV301",
+    "failure_mode": "stuck",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "anomaly",
+    "description": "Gradual stuck on FV-301: Valve fails to move to required position"
+  },
+  {
+    "scenario_id": "sc_0067_degradation",
+    "type": "degradation",
+    "equipment_id": "eq_FV301",
+    "failure_mode": "internal_leakage",
+    "failure_mechanism": "flow_erosion",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "anomaly",
+    "description": "Gradual internal_leakage on FV-301: Passing when closed, cannot achieve tight shutoff"
+  },
+  {
+    "scenario_id": "sc_0068_failure",
+    "type": "failure",
+    "equipment_id": "eq_V101",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: high_output on V-101"
+  },
+  {
+    "scenario_id": "sc_0069_failure",
+    "type": "failure",
+    "equipment_id": "eq_V101",
+    "failure_mode": "corrosion",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: corrosion on V-101"
+  },
+  {
+    "scenario_id": "sc_0070_failure",
+    "type": "failure",
+    "equipment_id": "eq_TK101",
+    "failure_mode": "corrosion",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: corrosion on TK-101"
+  },
+  {
+    "scenario_id": "sc_0071_failure",
+    "type": "failure",
+    "equipment_id": "eq_TK101",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: high_output on TK-101"
+  },
+  {
+    "scenario_id": "sc_0072_failure",
+    "type": "failure",
+    "equipment_id": "eq_C201",
+    "failure_mode": "surge",
+    "failure_mechanism": "mechanical_overload",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: surge on C-201"
+  },
+  {
+    "scenario_id": "sc_0073_failure",
+    "type": "failure",
+    "equipment_id": "eq_C201",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on C-201"
+  },
+  {
+    "scenario_id": "sc_0074_failure",
+    "type": "failure",
+    "equipment_id": "eq_C201",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on C-201"
+  },
+  {
+    "scenario_id": "sc_0075_failure",
+    "type": "failure",
+    "equipment_id": "eq_C202",
+    "failure_mode": "surge",
+    "failure_mechanism": "mechanical_overload",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: surge on C-202"
+  },
+  {
+    "scenario_id": "sc_0076_failure",
+    "type": "failure",
+    "equipment_id": "eq_C202",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on C-202"
+  },
+  {
+    "scenario_id": "sc_0077_failure",
+    "type": "failure",
+    "equipment_id": "eq_C202",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on C-202"
+  },
+  {
+    "scenario_id": "sc_0078_failure",
+    "type": "failure",
+    "equipment_id": "eq_E201",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: fouling on E-201"
+  },
+  {
+    "scenario_id": "sc_0079_failure",
+    "type": "failure",
+    "equipment_id": "eq_E201",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: tube_failure on E-201"
+  },
+  {
+    "scenario_id": "sc_0080_failure",
+    "type": "failure",
+    "equipment_id": "eq_E201",
+    "failure_mode": "external_leakage",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: external_leakage on E-201"
+  },
+  {
+    "scenario_id": "sc_0081_failure",
+    "type": "failure",
+    "equipment_id": "eq_V201",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: high_output on V-201"
+  },
+  {
+    "scenario_id": "sc_0082_failure",
+    "type": "failure",
+    "equipment_id": "eq_V201",
+    "failure_mode": "corrosion",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: corrosion on V-201"
+  },
+  {
+    "scenario_id": "sc_0083_failure",
+    "type": "failure",
+    "equipment_id": "eq_V202",
+    "failure_mode": "high_output",
+    "failure_mechanism": "operating_error",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: high_output on V-202"
+  },
+  {
+    "scenario_id": "sc_0084_failure",
+    "type": "failure",
+    "equipment_id": "eq_V202",
+    "failure_mode": "corrosion",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: corrosion on V-202"
+  },
+  {
+    "scenario_id": "sc_0085_failure",
+    "type": "failure",
+    "equipment_id": "eq_T301",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on T-301"
+  },
+  {
+    "scenario_id": "sc_0086_failure",
+    "type": "failure",
+    "equipment_id": "eq_T301",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: plugged on T-301"
+  },
+  {
+    "scenario_id": "sc_0087_failure",
+    "type": "failure",
+    "equipment_id": "eq_T302",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on T-302"
+  },
+  {
+    "scenario_id": "sc_0088_failure",
+    "type": "failure",
+    "equipment_id": "eq_T302",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: plugged on T-302"
+  },
+  {
+    "scenario_id": "sc_0089_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on P-301A"
+  },
+  {
+    "scenario_id": "sc_0090_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: seal_failure on P-301A"
+  },
+  {
+    "scenario_id": "sc_0091_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: cavitation on P-301A"
+  },
+  {
+    "scenario_id": "sc_0092_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on P-301B"
+  },
+  {
+    "scenario_id": "sc_0093_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: seal_failure on P-301B"
+  },
+  {
+    "scenario_id": "sc_0094_failure",
+    "type": "failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: cavitation on P-301B"
+  },
+  {
+    "scenario_id": "sc_0095_failure",
+    "type": "failure",
+    "equipment_id": "eq_E301",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: fouling on E-301"
+  },
+  {
+    "scenario_id": "sc_0096_failure",
+    "type": "failure",
+    "equipment_id": "eq_E301",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: tube_failure on E-301"
+  },
+  {
+    "scenario_id": "sc_0097_failure",
+    "type": "failure",
+    "equipment_id": "eq_E301",
+    "failure_mode": "external_leakage",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: external_leakage on E-301"
+  },
+  {
+    "scenario_id": "sc_0098_failure",
+    "type": "failure",
+    "equipment_id": "eq_T401",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on T-401"
+  },
+  {
+    "scenario_id": "sc_0099_failure",
+    "type": "failure",
+    "equipment_id": "eq_T401",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: plugged on T-401"
+  },
+  {
+    "scenario_id": "sc_0100_failure",
+    "type": "failure",
+    "equipment_id": "eq_E401",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: fouling on E-401"
+  },
+  {
+    "scenario_id": "sc_0101_failure",
+    "type": "failure",
+    "equipment_id": "eq_E401",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: tube_failure on E-401"
+  },
+  {
+    "scenario_id": "sc_0102_failure",
+    "type": "failure",
+    "equipment_id": "eq_E401",
+    "failure_mode": "external_leakage",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: external_leakage on E-401"
+  },
+  {
+    "scenario_id": "sc_0103_failure",
+    "type": "failure",
+    "equipment_id": "eq_T501",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on T-501"
+  },
+  {
+    "scenario_id": "sc_0104_failure",
+    "type": "failure",
+    "equipment_id": "eq_T501",
+    "failure_mode": "plugged",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: plugged on T-501"
+  },
+  {
+    "scenario_id": "sc_0105_failure",
+    "type": "failure",
+    "equipment_id": "eq_E501",
+    "failure_mode": "fouling",
+    "failure_mechanism": "scaling",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: fouling on E-501"
+  },
+  {
+    "scenario_id": "sc_0106_failure",
+    "type": "failure",
+    "equipment_id": "eq_E501",
+    "failure_mode": "tube_failure",
+    "failure_mechanism": "pitting_corrosion",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: tube_failure on E-501"
+  },
+  {
+    "scenario_id": "sc_0107_failure",
+    "type": "failure",
+    "equipment_id": "eq_E501",
+    "failure_mode": "external_leakage",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: external_leakage on E-501"
+  },
+  {
+    "scenario_id": "sc_0108_failure",
+    "type": "failure",
+    "equipment_id": "eq_P601",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.8,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on P-601A"
+  },
+  {
+    "scenario_id": "sc_0109_failure",
+    "type": "failure",
+    "equipment_id": "eq_P601",
+    "failure_mode": "seal_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: seal_failure on P-601A"
+  },
+  {
+    "scenario_id": "sc_0110_failure",
+    "type": "failure",
+    "equipment_id": "eq_P601",
+    "failure_mode": "cavitation",
+    "failure_mechanism": "cavitation_erosion",
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "failure",
+    "description": "Failure event: cavitation on P-601A"
+  },
+  {
+    "scenario_id": "sc_0111_failure",
+    "type": "failure",
+    "equipment_id": "eq_C601",
+    "failure_mode": "surge",
+    "failure_mechanism": "mechanical_overload",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: surge on C-601"
+  },
+  {
+    "scenario_id": "sc_0112_failure",
+    "type": "failure",
+    "equipment_id": "eq_C601",
+    "failure_mode": "bearing_failure",
+    "failure_mechanism": "wear",
+    "cascade_chain": [],
+    "severity": 0.9,
+    "label": "failure",
+    "description": "Failure event: bearing_failure on C-601"
+  },
+  {
+    "scenario_id": "sc_0113_failure",
+    "type": "failure",
+    "equipment_id": "eq_C601",
+    "failure_mode": "fouling",
+    "failure_mechanism": "coking",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: fouling on C-601"
+  },
+  {
+    "scenario_id": "sc_0114_failure",
+    "type": "failure",
+    "equipment_id": "eq_XV101",
+    "failure_mode": "stuck",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: stuck on XV-101"
+  },
+  {
+    "scenario_id": "sc_0115_failure",
+    "type": "failure",
+    "equipment_id": "eq_XV101",
+    "failure_mode": "internal_leakage",
+    "failure_mechanism": "flow_erosion",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: internal_leakage on XV-101"
+  },
+  {
+    "scenario_id": "sc_0116_failure",
+    "type": "failure",
+    "equipment_id": "eq_FV301",
+    "failure_mode": "stuck",
+    "failure_mechanism": "uniform_corrosion",
+    "cascade_chain": [],
+    "severity": 0.6,
+    "label": "failure",
+    "description": "Failure event: stuck on FV-301"
+  },
+  {
+    "scenario_id": "sc_0117_failure",
+    "type": "failure",
+    "equipment_id": "eq_FV301",
+    "failure_mode": "internal_leakage",
+    "failure_mechanism": "flow_erosion",
+    "cascade_chain": [],
+    "severity": 0.5,
+    "label": "failure",
+    "description": "Failure event: internal_leakage on FV-301"
+  },
+  {
+    "scenario_id": "sc_0118_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_E201"
+    ],
+    "severity": 0.7,
+    "label": "cascade",
+    "description": "Cascade: P-301A breakdown \u2192 E-201 loss_of_cooling_flow"
+  },
+  {
+    "scenario_id": "sc_0119_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_E301"
+    ],
+    "severity": 0.7,
+    "label": "cascade",
+    "description": "Cascade: P-301A breakdown \u2192 E-301 loss_of_cooling_flow"
+  },
+  {
+    "scenario_id": "sc_0120_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_E201"
+    ],
+    "severity": 0.7,
+    "label": "cascade",
+    "description": "Cascade: P-301B breakdown \u2192 E-201 loss_of_cooling_flow"
+  },
+  {
+    "scenario_id": "sc_0121_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_E301"
+    ],
+    "severity": 0.7,
+    "label": "cascade",
+    "description": "Cascade: P-301B breakdown \u2192 E-301 loss_of_cooling_flow"
+  },
+  {
+    "scenario_id": "sc_0122_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_E201",
+    "failure_mode": "fouling",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_E201",
+      "eq_C201"
+    ],
+    "severity": 0.5,
+    "label": "cascade",
+    "description": "Cascade: E-201 fouling \u2192 C-201 higher_suction_temperature_reduced_capacity"
+  },
+  {
+    "scenario_id": "sc_0123_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_E201",
+    "failure_mode": "fouling",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_E201",
+      "eq_C202"
+    ],
+    "severity": 0.5,
+    "label": "cascade",
+    "description": "Cascade: E-201 fouling \u2192 C-202 higher_suction_temperature_reduced_capacity"
+  },
+  {
+    "scenario_id": "sc_0124_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_E301",
+    "failure_mode": "fouling",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_E301",
+      "eq_C201"
+    ],
+    "severity": 0.5,
+    "label": "cascade",
+    "description": "Cascade: E-301 fouling \u2192 C-201 higher_suction_temperature_reduced_capacity"
+  },
+  {
+    "scenario_id": "sc_0125_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_E301",
+    "failure_mode": "fouling",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_E301",
+      "eq_C202"
+    ],
+    "severity": 0.5,
+    "label": "cascade",
+    "description": "Cascade: E-301 fouling \u2192 C-202 higher_suction_temperature_reduced_capacity"
+  },
+  {
+    "scenario_id": "sc_0126_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_V101",
+    "failure_mode": "high_output",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_V101",
+      "eq_C201"
+    ],
+    "severity": 1.0,
+    "label": "cascade",
+    "description": "Cascade: V-101 high_output \u2192 C-201 liquid_ingestion"
+  },
+  {
+    "scenario_id": "sc_0127_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_V101",
+    "failure_mode": "high_output",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_V101",
+      "eq_C202"
+    ],
+    "severity": 1.0,
+    "label": "cascade",
+    "description": "Cascade: V-101 high_output \u2192 C-202 liquid_ingestion"
+  },
+  {
+    "scenario_id": "sc_0128_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_V102",
+    "failure_mode": "high_output",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_V102",
+      "eq_C201"
+    ],
+    "severity": 1.0,
+    "label": "cascade",
+    "description": "Cascade: V-102 high_output \u2192 C-201 liquid_ingestion"
+  },
+  {
+    "scenario_id": "sc_0129_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_V102",
+    "failure_mode": "high_output",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_V102",
+      "eq_C202"
+    ],
+    "severity": 1.0,
+    "label": "cascade",
+    "description": "Cascade: V-102 high_output \u2192 C-202 liquid_ingestion"
+  },
+  {
+    "scenario_id": "sc_0130_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_T301"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301A breakdown \u2192 T-301 loss_of_amine_circulation"
+  },
+  {
+    "scenario_id": "sc_0131_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_T302"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301A breakdown \u2192 T-302 loss_of_amine_circulation"
+  },
+  {
+    "scenario_id": "sc_0132_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_T301"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301B breakdown \u2192 T-301 loss_of_amine_circulation"
+  },
+  {
+    "scenario_id": "sc_0133_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_T302"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301B breakdown \u2192 T-302 loss_of_amine_circulation"
+  },
+  {
+    "scenario_id": "sc_0134_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_C201",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_C201",
+      "eq_XV101"
+    ],
+    "severity": 0.9,
+    "label": "cascade",
+    "description": "Cascade: C-201 breakdown \u2192 XV-101 loss_of_instrument_air"
+  },
+  {
+    "scenario_id": "sc_0135_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_C201",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_C201",
+      "eq_FV301"
+    ],
+    "severity": 0.9,
+    "label": "cascade",
+    "description": "Cascade: C-201 breakdown \u2192 FV-301 loss_of_instrument_air"
+  },
+  {
+    "scenario_id": "sc_0136_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_C202",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_C202",
+      "eq_XV101"
+    ],
+    "severity": 0.9,
+    "label": "cascade",
+    "description": "Cascade: C-202 breakdown \u2192 XV-101 loss_of_instrument_air"
+  },
+  {
+    "scenario_id": "sc_0137_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_C202",
+    "failure_mode": "breakdown",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_C202",
+      "eq_FV301"
+    ],
+    "severity": 0.9,
+    "label": "cascade",
+    "description": "Cascade: C-202 breakdown \u2192 FV-301 loss_of_instrument_air"
+  },
+  {
+    "scenario_id": "sc_0138_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "fail_to_start",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_E201"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301A fail_to_start \u2192 E-201 loss_of_cooling_multiple_exchangers"
+  },
+  {
+    "scenario_id": "sc_0139_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301",
+    "failure_mode": "fail_to_start",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301",
+      "eq_E301"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301A fail_to_start \u2192 E-301 loss_of_cooling_multiple_exchangers"
+  },
+  {
+    "scenario_id": "sc_0140_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "fail_to_start",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_E201"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301B fail_to_start \u2192 E-201 loss_of_cooling_multiple_exchangers"
+  },
+  {
+    "scenario_id": "sc_0141_cascade_failure",
+    "type": "cascade_failure",
+    "equipment_id": "eq_P301B",
+    "failure_mode": "fail_to_start",
+    "failure_mechanism": null,
+    "cascade_chain": [
+      "eq_P301B",
+      "eq_E301"
+    ],
+    "severity": 0.8,
+    "label": "cascade",
+    "description": "Cascade: P-301B fail_to_start \u2192 E-301 loss_of_cooling_multiple_exchangers"
+  },
+  {
+    "scenario_id": "sc_0142_startup",
+    "type": "startup",
+    "equipment_id": "eq_C201",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for C-201"
+  },
+  {
+    "scenario_id": "sc_0143_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_C201",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on C-201: 80% \u2192 50% \u2192 100%"
+  },
+  {
+    "scenario_id": "sc_0144_startup",
+    "type": "startup",
+    "equipment_id": "eq_C202",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for C-202"
+  },
+  {
+    "scenario_id": "sc_0145_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_C202",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on C-202: 80% \u2192 50% \u2192 100%"
+  },
+  {
+    "scenario_id": "sc_0146_startup",
+    "type": "startup",
+    "equipment_id": "eq_P301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for P-301A"
+  },
+  {
+    "scenario_id": "sc_0147_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_P301",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on P-301A: 80% \u2192 50% \u2192 100%"
+  },
+  {
+    "scenario_id": "sc_0148_startup",
+    "type": "startup",
+    "equipment_id": "eq_P301B",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for P-301B"
+  },
+  {
+    "scenario_id": "sc_0149_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_P301B",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on P-301B: 80% \u2192 50% \u2192 100%"
+  },
+  {
+    "scenario_id": "sc_0150_startup",
+    "type": "startup",
+    "equipment_id": "eq_P601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for P-601A"
+  },
+  {
+    "scenario_id": "sc_0151_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_P601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on P-601A: 80% \u2192 50% \u2192 100%"
+  },
+  {
+    "scenario_id": "sc_0152_startup",
+    "type": "startup",
+    "equipment_id": "eq_C601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "startup",
+    "description": "Startup sequence for C-601"
+  },
+  {
+    "scenario_id": "sc_0153_load_change",
+    "type": "load_change",
+    "equipment_id": "eq_C601",
+    "failure_mode": null,
+    "failure_mechanism": null,
+    "cascade_chain": [],
+    "severity": 0.7,
+    "label": "normal",
+    "description": "Load change on C-601: 80% \u2192 50% \u2192 100%"
+  }
+]

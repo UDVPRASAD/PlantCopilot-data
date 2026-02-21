@@ -1,0 +1,34 @@
+{
+  "total_samples": 61440,
+  "total_scenarios": 154,
+  "scenario_breakdown": {
+    "normal": 23,
+    "degradation": 45,
+    "failure": 50,
+    "cascade": 24,
+    "operational": 12
+  },
+  "unique_equipment": 9,
+  "unique_sensors": 50,
+  "label_distribution": {
+    "normal": 30385,
+    "anomaly": 12365,
+    "pre_failure": 13974,
+    "failure": 2466,
+    "cascade": 1692,
+    "startup": 558
+  },
+  "output_files": [
+    "output\\failure_events.csv",
+    "output\\generation_stats.json",
+    "output\\knowledge_base_for_llm.md",
+    "output\\knowledge_graph.cypher",
+    "output\\knowledge_graph.json",
+    "output\\labeled_anomaly_dataset.csv",
+    "output\\scenario_manifest.json",
+    "output\\sensor_timeseries.csv",
+    "output\\test_dataset.csv",
+    "output\\train_dataset.csv",
+    "output\\val_dataset.csv"
+  ]
+}
